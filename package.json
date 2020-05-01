@@ -8,15 +8,19 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "vue-flickity": "^1.1.2"
+    "vue-flickity": "^1.1.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "snyk": true
 }
